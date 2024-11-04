@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+}
+form{
+    padding: 20px 0 20px ;
+    margin-left: 50px;
+}
+#task{
+    height: 30px;
+    width: 200px;
+}
+#submit{
+    width: 90px;
+    padding: 3px;
+    margin: 20px;
+    color: black;
+    font-size: 15px;
+    border-radius: 8px;
+}
+div ul {
+    letter-spacing: 1.2px;
+    line-height: 1.6;
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+}
+div ul li{
+    width: fit-content;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px 50px;
+    padding-left: 10px;
+    transition: .3s;
+    list-style: none;
+}
+div ul li:hover{
+    background-color: aliceblue;
+    border-radius: 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    
+}
